@@ -1,0 +1,6 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <ignored-resource url="https://git1-us-west.apache.org/repos/asf/wicket/repo?p=wicket.git;a=summary;f=wicket-core/src/main/resources/META-INF/wicket-1.5.xsd;hb=master" />
+    <ignored-resource url="tapestry:parameter" />
+  </component>
+</application>

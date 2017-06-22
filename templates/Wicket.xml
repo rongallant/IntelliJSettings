@@ -1,0 +1,8 @@
+<templateSet group="Wicket">
+  <template name="wi" value="wicket:id=&quot;$END$&quot;" description="wicket:id=&quot;&quot;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>

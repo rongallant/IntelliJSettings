@@ -1,0 +1,8 @@
+<templateSet group="plain">
+  <template name="serial" value="private static final long serialVersionUID = $randomLong$L;&#10;$END$" description="private static final long serialVersionUID = 1L;" toReformat="false" toShortenFQNames="false">
+    <variable name="randomLong" expression="" defaultValue="groovyScript(&quot;new Random().nextLong().abs()&quot;)" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
