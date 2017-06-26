@@ -1,0 +1,13 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="IMailingAddress" type="CLASS" />
+      <mapping pattern="sf" type="CLASS" />
+      <mapping ext="svg" type="Images" />
+      <mapping ext="map" type="Native" />
+      <mapping ext="db" type="PLAIN_TEXT" />
+      <mapping ext="htc" type="PLAIN_TEXT" />
+      <removed_mapping ext="svg" type="XML" />
+    </extensionMap>
+  </component>
+</application>
