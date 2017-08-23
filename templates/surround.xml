@@ -1,0 +1,7 @@
+<templateSet group="surround">
+  <template name="timer" value="long startTime = System.currentTimeMillis(); // TODO: Delete Me&#10;&#10;$SELECTION$&#10;&#10;System.out.println(&quot;\n\n elapsedTime = &quot; + (System.currentTimeMillis()-startTime) + &quot; ms\n&quot;); // TODO: Delete Me&#10;" description="Surround with elapsed timer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

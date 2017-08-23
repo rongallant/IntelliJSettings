@@ -1,9 +1,20 @@
 <application>
   <component name="UISettings">
+    <option name="ANIMATE_WINDOWS" value="false" />
+    <option name="CLOSE_NON_MODIFIED_FILES_FIRST" value="true" />
+    <option name="CONSOLE_COMMAND_HISTORY_LIMIT" value="999" />
+    <option name="CONSOLE_CYCLE_BUFFER_SIZE_KB" value="2048" />
+    <option name="DISABLE_MNEMONICS" value="false" />
+    <option name="DISABLE_MNEMONICS_IN_CONTROLS" value="true" />
+    <option name="EDITOR_AA_TYPE" value="Greyscale" />
     <option name="FONT_SCALE" value="1.0" />
+    <option name="HIDE_TABS_IF_NEED" value="false" />
     <option name="HIDE_TOOL_STRIPES" value="false" />
-    <option name="MAX_LOOKUP_LIST_HEIGHT" value="27" />
-    <option name="MAX_LOOKUP_WIDTH2" value="865" />
+    <option name="IDE_AA_TYPE" value="Greyscale" />
+    <option name="MAX_LOOKUP_LIST_HEIGHT" value="37" />
+    <option name="MAX_LOOKUP_WIDTH2" value="1084" />
+    <option name="SCROLL_TAB_LAYOUT_IN_EDITOR" value="false" />
+    <option name="SHOW_ICONS_IN_QUICK_NAVIGATION" value="false" />
     <option name="SHOW_MAIN_TOOLBAR" value="true" />
   </component>
 </application>

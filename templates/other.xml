@@ -1,0 +1,7 @@
+<templateSet group="other">
+  <template name="sleep" value="SleepUtil.sleepAtLeast(10000); // TODO DEBUGGING Remove me" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
