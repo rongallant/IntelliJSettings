@@ -19,10 +19,9 @@
       <option name="GROOVY_STATEMENT" value="false" />
     </context>
   </template>
-  <template name="logdv" value="log.debug(&quot;$METHOD_NAME$: $EXPR_COPY$ = &quot; + $EXPR$);" description="Logs a debug value" toReformat="false" toShortenFQNames="true">
+  <template name="logdv" value="log.debug(&quot;$METHOD_NAME$: $INPUT$ = &quot; + $INPUT$);" description="Logs a debug value" toReformat="false" toShortenFQNames="true">
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
-    <variable name="EXPR_COPY" expression="variableOfType(&quot;&quot;)" defaultValue="" alwaysStopAt="false" />
-    <variable name="EXPR" expression="escapeString(EXPR)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
+    <variable name="INPUT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
