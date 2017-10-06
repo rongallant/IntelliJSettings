@@ -21,7 +21,7 @@
     </context>
   </template>
   <template name="logdv" value="log.debug(&quot;$CLASS_NAME$.$METHOD_NAME$: $INPUT$ = &quot; + $INPUT$);" description="Logs a debug value" toReformat="false" toShortenFQNames="true">
-    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="false" />
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <variable name="INPUT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
