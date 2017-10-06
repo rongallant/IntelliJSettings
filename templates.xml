@@ -3,6 +3,106 @@
     <option name="deletedKeys">
       <list>
         <TemplateKey>
+          <option name="groupName" value="other" />
+          <option name="key" value="inst" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="other" />
+          <option name="key" value="lst" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="other" />
+          <option name="key" value="mn" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="other" />
+          <option name="key" value="mx" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="other" />
+          <option name="key" value="psvm" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="other" />
+          <option name="key" value="toar" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="other" />
+          <option name="key" value="lazy" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="other" />
+          <option name="key" value="inn" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="other" />
+          <option name="key" value="ifn" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="other" />
+          <option name="key" value="geti" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="output" />
+          <option name="key" value="serr" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="output" />
+          <option name="key" value="souf" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="output" />
+          <option name="key" value="soutp" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="plain" />
+          <option name="key" value="St" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="plain" />
+          <option name="key" value="psf" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="plain" />
+          <option name="key" value="prsf" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="plain" />
+          <option name="key" value="psfi" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="plain" />
+          <option name="key" value="psfs" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="plain" />
+          <option name="key" value="thr" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="surround" />
+          <option name="key" value="B" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="surround" />
+          <option name="key" value="P" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="surround" />
+          <option name="key" value="C" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="surround" />
+          <option name="key" value="RL" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="surround" />
+          <option name="key" value="WL" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="surround" />
+          <option name="key" value="I" />
+        </TemplateKey>
+        <TemplateKey>
           <option name="groupName" value="spring" />
           <option name="key" value="sb" />
         </TemplateKey>

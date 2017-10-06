@@ -1,9 +1,10 @@
 <templateSet group="output">
   <template name="sout" value="System.out.println($EXPR$); // TODO: Delete Me" description="Prints a string to System.out" toReformat="false" toShortenFQNames="false">
     <variable name="EXPR" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
-  <template name="soutv" value="System.out.println(&quot;[DELETEME] $EXPR_COPY$ = &quot; + $EXPR$); // TODO: Delete Me" description="Prints a value to System.out" toReformat="true" toShortenFQNames="true">
+  <template name="soutv" value="System.out.println(&quot;[DELETEME] $CLASS_NAME$.$METHOD_NAME$: $EXPR_COPY$ = &quot; + $EXPR$); // TODO: Delete Me" description="Prints a value to System.out" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
     <variable name="EXPR_COPY" expression="escapeString(EXPR)" defaultValue="" alwaysStopAt="false" />
     <context>
@@ -19,16 +20,18 @@
       <option name="GROOVY_STATEMENT" value="false" />
     </context>
   </template>
-  <template name="logdv" value="log.debug(&quot;$METHOD_NAME$: $INPUT$ = &quot; + $INPUT$);" description="Logs a debug value" toReformat="false" toShortenFQNames="true">
+  <template name="logdv" value="log.debug(&quot;$CLASS_NAME$.$METHOD_NAME$: $INPUT$ = &quot; + $INPUT$);" description="Logs a debug value" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="false" />
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <variable name="INPUT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="logdp" value="log.debug(&quot;$METHOD_NAME$( &quot; + $FORMAT$ + &quot; )&quot;);" description="Log parameters with debug" toReformat="false" toShortenFQNames="true">
-    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="true" />
-    <variable name="FORMAT" expression="groovyScript(&quot;'\&quot;' + _1.collect { it + ' = [\&quot; + ' + it + ' + \&quot;]'}.join(', ') + '\&quot;'&quot;, methodParameters())" defaultValue="" alwaysStopAt="true" />
+  <template name="logdp" value="log.debug(&quot;$CLASS_NAME$.$METHOD_NAME$( &quot; + $FORMAT$ + &quot; )&quot;);" description="Log parameters with debug" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="FORMAT" expression="groovyScript(&quot;'\&quot;' + _1.collect { it + ' = [\&quot; + ' + it + ' + \&quot;]'}.join(', ') + '\&quot;'&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
