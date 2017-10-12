@@ -1,6 +1,7 @@
 <templateSet group="output">
   <template name="sout" value="System.out.println($EXPR$); // TODO: Delete Me" description="Prints a string to System.out" toReformat="false" toShortenFQNames="false">
     <variable name="EXPR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="soutv" value="System.out.println(&quot;[DELETEME] $CLASS_NAME$.$METHOD_NAME$: $EXPR_COPY$ = &quot; + $EXPR$); // TODO: Delete Me" description="Prints a value to System.out" toReformat="true" toShortenFQNames="true">
     <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
