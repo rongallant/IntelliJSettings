@@ -12,9 +12,9 @@
     </context>
   </template>
   <template name="agnotEmpty" value="AgencyValidate.notEmpty($INPUT$, &quot;$CLASS_NAME$.$METHOD_NAME$: $INPUT$&quot;);" description="Agency Input Validation" toReformat="true" toShortenFQNames="true">
-    <variable name="INPUT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="INPUT" expression="" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
@@ -23,6 +23,14 @@
     <variable name="INPUT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="log4j" value="public static final Logger log =  new $LOGGER_CLASS$(LoggerType.$LOGGER_TYPE$, $CLASS$).get();" description="Default log4j template" toReformat="true" toShortenFQNames="true">
+    <variable name="LOGGER_CLASS" expression="" defaultValue="AgencyLogger" alwaysStopAt="true" />
+    <variable name="LOGGER_TYPE" expression="" defaultValue="UI" alwaysStopAt="true" />
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>

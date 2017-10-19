@@ -21,9 +21,10 @@
       <option name="GROOVY_STATEMENT" value="false" />
     </context>
   </template>
-  <template name="logdv" value="log.debug(&quot;$CLASS_NAME$.$METHOD_NAME$: $INPUT$ = &quot; + $INPUT$);" description="Logs a debug value" toReformat="false" toShortenFQNames="true">
+  <template name="logdv" value="log.debug(&quot;$CLASS_NAME$.$METHOD_NAME$: $INPUT_NAME$ = &quot; + $INPUT$);$END$" description="Logs a debug value" toReformat="false" toShortenFQNames="true">
     <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="INPUT_NAME" expression="" defaultValue="" alwaysStopAt="false" />
     <variable name="INPUT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
