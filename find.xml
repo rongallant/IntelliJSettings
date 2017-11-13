@@ -15,7 +15,6 @@
       <mask>*.xml</mask>
       <mask>*.pom</mask>
       <mask>*.jade</mask>
-      <mask>*.less</mask>
       <mask>*.js</mask>
       <mask>*.css</mask>
       <mask>*</mask>
@@ -30,6 +29,11 @@
       <mask>*.pro</mask>
       <mask>*.prop</mask>
       <mask>*.properties*</mask>
+      <mask>*.l*</mask>
+      <mask>*.le*</mask>
+      <mask>*.les*</mask>
+      <mask>*.less*</mask>
+      <mask>*.less</mask>
     </recentFileMasks>
   </component>
 </application>
