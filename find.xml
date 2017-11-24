@@ -8,8 +8,6 @@
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
-      <mask>*.jsp</mask>
-      <mask>*.as</mask>
       <mask>*.mxml</mask>
       <mask>*.properties</mask>
       <mask>*.properties.xml</mask>
@@ -25,7 +23,6 @@
       <mask>*.*.p</mask>
       <mask>*.*.</mask>
       <mask>*.*</mask>
-      <mask>*.</mask>
       <mask>*.p</mask>
       <mask>*.pr</mask>
       <mask>*.pro</mask>
@@ -36,6 +33,11 @@
       <mask>*.les*</mask>
       <mask>*.less*</mask>
       <mask>*.less</mask>
+      <mask>*.les</mask>
+      <mask>*.le</mask>
+      <mask>*.l</mask>
+      <mask>*.</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
