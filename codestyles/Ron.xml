@@ -15,7 +15,8 @@
   <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="PREFER_LONGER_NAMES" value="false" />
   <option name="LAYOUT_STATIC_IMPORTS_SEPARATELY" value="false" />
-  <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="3" />
+  <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
+  <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
   <option name="IMPORT_LAYOUT_TABLE">
     <value>
       <package name="" withSubpackages="true" static="false" />
