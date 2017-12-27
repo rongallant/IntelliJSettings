@@ -8,20 +8,8 @@
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
-      <mask>*.mxml</mask>
-      <mask>*.properties</mask>
-      <mask>*.properties.xml</mask>
-      <mask>*.html</mask>
-      <mask>*.xml</mask>
-      <mask>*.pom</mask>
-      <mask>*.jade</mask>
-      <mask>*.css</mask>
-      <mask>*</mask>
       <mask>*.java</mask>
       <mask>*.*.po</mask>
-      <mask>*.*.p</mask>
-      <mask>*.*.</mask>
-      <mask>*.*</mask>
       <mask>*.p</mask>
       <mask>*.pr</mask>
       <mask>*.pro</mask>
@@ -38,6 +26,18 @@
       <mask>*.</mask>
       <mask>*.php</mask>
       <mask>*.js</mask>
+      <mask>*.*.p</mask>
+      <mask>*.*.</mask>
+      <mask>*.*</mask>
+      <mask>*.*p</mask>
+      <mask>*.*pr</mask>
+      <mask>*.*pro</mask>
+      <mask>*.*prop</mask>
+      <mask>*.*prope</mask>
+      <mask>*.*proper</mask>
+      <mask>*.*propert</mask>
+      <mask>*.*property</mask>
+      <mask>*.property</mask>
     </recentFileMasks>
   </component>
 </application>
