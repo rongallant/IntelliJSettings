@@ -90,11 +90,12 @@
           <option name="url" value="https://rgallant@bitbucket.org/tdstickets/gorgeous-ghost.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://rgallant@bitbucket.org/tdstickets/thriving-bomb.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/IdeaProjects" />
-  </component>
-  <component name="Vcs.Log.App.Settings">
-    <option name="MIGRATED" value="true" />
   </component>
 </application>
