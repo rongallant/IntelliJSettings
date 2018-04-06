@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="IMailingAddress" type="CLASS" />
       <mapping pattern="sf" type="CLASS" />
+      <mapping pattern=".gitignore_global" type="Git file" />
       <mapping ext="svg" type="Images" />
       <mapping ext="map" type="Native" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
