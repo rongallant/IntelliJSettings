@@ -5,12 +5,12 @@
       <mapping pattern="IMailingAddress" type="CLASS" />
       <mapping pattern="sf" type="CLASS" />
       <mapping pattern=".gitignore_global" type="Git file" />
-      <mapping ext="svg" type="Images" />
       <mapping ext="map" type="Native" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
       <mapping ext="htc" type="PLAIN_TEXT" />
       <removed_mapping ext="svg" type="SVG" />
+      <mapping ext="svg" type="XML" />
     </extensionMap>
   </component>
 </application>
