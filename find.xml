@@ -17,5 +17,6 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*.*properties</mask>
+    <mask>*properties.*</mask>
   </component>
 </application>
