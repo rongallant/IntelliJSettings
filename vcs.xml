@@ -114,6 +114,14 @@
           <option name="url" value="https://rgallant@bitbucket.org/tdstickets/driver-portal.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="bitbucket.org:tdstickets/nifty-noise.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://rgallant@bitbucket.org/tdstickets/nifty-noise.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/IdeaProjects" />
