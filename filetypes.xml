@@ -5,9 +5,12 @@
       <mapping pattern="sf" type="CLASS" />
       <mapping pattern="IMailingAddress" type="CLASS" />
       <mapping pattern=".gitignore_global" type="Git file" />
+      <mapping pattern="DragDropTarget" type="JavaScript" />
       <mapping pattern="MenuLink" type="JavaScript" />
+      <mapping pattern="DraggableBookmark" type="JavaScript" />
       <mapping ext="map" type="Native" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern="_draggableBookmark.scss" type="PLAIN_TEXT" />
       <mapping pattern=".env-prod" type="PLAIN_TEXT" />
       <mapping pattern=".env-stage" type="PLAIN_TEXT" />
       <mapping pattern="dragDropTest.js" type="PLAIN_TEXT" />
