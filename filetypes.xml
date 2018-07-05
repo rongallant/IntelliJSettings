@@ -6,6 +6,7 @@
       <mapping pattern="IMailingAddress" type="CLASS" />
       <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern="DragDropTarget" type="JavaScript" />
+      <mapping pattern="inputDate" type="JavaScript" />
       <mapping pattern="MenuLink" type="JavaScript" />
       <mapping pattern="DraggableBookmark" type="JavaScript" />
       <mapping ext="map" type="Native" />
