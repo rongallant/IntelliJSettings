@@ -10,7 +10,6 @@
       <mapping pattern="MenuLink" type="JavaScript" />
       <mapping pattern="DraggableBookmark" type="JavaScript" />
       <mapping ext="map" type="Native" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="styles" type="PLAIN_TEXT" />
       <mapping pattern="_draggableBookmark.scss" type="PLAIN_TEXT" />
       <mapping pattern=".env-prod" type="PLAIN_TEXT" />
