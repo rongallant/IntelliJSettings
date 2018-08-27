@@ -1,0 +1,24 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.idea;*.iml;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.classpath;.git;.hg;.svn;CVS;__pycache__;_svn;effective.pom;vssver.scc;vssver2.scc;" />
+    <extensionMap>
+      <mapping pattern="sf" type="CLASS" />
+      <mapping pattern="IMailingAddress" type="CLASS" />
+      <mapping pattern=".gitignore_global" type="Git file" />
+      <mapping pattern="DragDropTarget" type="JavaScript" />
+      <mapping pattern="inputDate" type="JavaScript" />
+      <mapping pattern="MenuLink" type="JavaScript" />
+      <mapping pattern="DraggableBookmark" type="JavaScript" />
+      <mapping ext="map" type="Native" />
+      <mapping pattern="styles" type="PLAIN_TEXT" />
+      <mapping pattern="_draggableBookmark.scss" type="PLAIN_TEXT" />
+      <mapping pattern=".env-prod" type="PLAIN_TEXT" />
+      <mapping pattern=".env-stage" type="PLAIN_TEXT" />
+      <mapping pattern=".env_dev" type="PLAIN_TEXT" />
+      <mapping pattern=".env-dev" type="PLAIN_TEXT" />
+      <mapping pattern="DragSub.js" type="PLAIN_TEXT" />
+      <mapping ext="db" type="PLAIN_TEXT" />
+      <mapping ext="htc" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
