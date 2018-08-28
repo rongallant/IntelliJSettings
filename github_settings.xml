@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
-  <component name="GithubSettings">
-    <option name="LOGIN" value="rongallant" />
-    <option name="AUTH_TYPE" value="BASIC" />
+  <component name="GithubAccounts">
+    <account id="0510268b-812a-4bee-a76d-62232db1de11" name="rongallant">
+      <server host="github.com" />
+    </account>
   </component>
 </application>
-
