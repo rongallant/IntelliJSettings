@@ -12,6 +12,7 @@
       </map>
     </option>
     <option name="USE_SOFT_WRAPS" value="" />
+    <option name="STRIP_TRAILING_SPACES" value="Whole" />
     <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
   </component>
   <component name="SpringBootEditorOptions">
