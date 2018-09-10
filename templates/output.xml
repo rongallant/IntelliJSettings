@@ -8,17 +8,11 @@
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
     <variable name="EXPR_COPY" expression="escapeString(EXPR)" defaultValue="" alwaysStopAt="false" />
-    <context>
-      <option name="GROOVY" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-    </context>
+    <context />
   </template>
   <template name="soutm" value="System.out.println(&quot;\n$CLASS_NAME$.$METHOD_NAME$&quot;); // TODO: Delete Me" description="Prints current class and method names to System.out" toReformat="true" toShortenFQNames="true">
     <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
-    <context>
-      <option name="GROOVY" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-    </context>
+    <context />
   </template>
 </templateSet>
