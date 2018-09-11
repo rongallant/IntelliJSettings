@@ -9,11 +9,11 @@
     <option name="languageBreadcrumbsMap">
       <map>
         <entry key="JAVA" value="true" />
+        <entry key="JSX Harmony" value="true" />
       </map>
     </option>
     <option name="USE_SOFT_WRAPS" value="" />
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
-    <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
   </component>
   <component name="SpringBootEditorOptions">
     <option name="showAdditionalConfigNotification" value="false" />
