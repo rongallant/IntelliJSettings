@@ -19,6 +19,7 @@
       <mapping pattern="DragSub.js" type="PLAIN_TEXT" />
       <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
+      <mapping ext="ja" type="PLAIN_TEXT" />
       <mapping ext="htc" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
