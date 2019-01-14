@@ -6,4 +6,9 @@
       <record scheme="https" hostname="github.com" port="-1" instance="Production" />
     </lookup>
   </component>
+  <component name="BitbucketServerRegistry">
+    <instances />
+    <lookup />
+  </component>
+  <component name="Instance" id="7665cf09-0b52-494a-a126-736fa93e1523" version="6.1" />
 </application>
